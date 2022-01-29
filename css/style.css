@@ -1,0 +1,445 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+/*responosive of section1 */
+
+@media screen and (max-width:800px) {
+    .header-section{
+        background-color: white;
+        height: 60vh;
+        width: 100%;
+        border: 1px solid red;
+        margin: 0 ;
+        padding:0;
+        position: relative;
+    }
+/*logo and icons*/
+
+
+.logo{
+    display: flex;
+    justify-content:space-between;
+
+
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.icon{
+    margin-top: 30px;
+    color: grey;
+}
+
+
+.icon ul li {
+    list-style-type: none;
+    display: inline;
+    padding:5px;
+    margin-right: 10px;
+    
+   
+
+}
+
+nav{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+nav ul li{
+    list-style-type: none;
+    font-size: 18px;
+   
+}
+
+nav ul li{
+    padding: 10px;
+
+}
+
+
+ nav ul li a{
+     text-decoration: none;
+    color: grey;
+    font-size: 32px;
+    
+ }   
+.regestration{
+    display: none;
+}
+.center-div{
+    
+    background-image: linear-gradient(rgba(0,0,0, 0.5) ,rgba(0,0,0,0.5)),url(../images/hero-cover.3.png);
+    background-position: center;
+    padding-top:30px;
+    color: white;
+    
+
+}
+
+.center-div h1{
+    color:white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding:10px;
+    margin-top: 20px;
+    
+
+}
+.center-div p{
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+  margin: 50px;
+   
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: 26px;
+
+  
+}
+
+/*quote button*/
+
+.btn1{
+    border: 1px solid white;
+    background-color:rgba(94, 195, 226, 0.953) ;
+    border-radius: 25px;
+    padding: 12px 20px;
+
+}
+ 
+
+
+/*learn more button*/
+.btn2{
+    border: 1px solid white;
+    background: transparent;
+    padding: 12px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    
+}
+
+
+/*change the color of the btns*/
+
+.btn a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+/*cards*/
+
+.mission-cards{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+/*card1*/
+.card1{
+    margin: 20px;
+    border: 1px solid white;
+    background-color: white;
+    
+   
+
+}
+.card2{
+    border: 1px solid white;
+    margin: 20px;
+    background-color: white;
+}
+
+.card3{
+    border: 1px solid white;
+    margin: 20px;
+    background-color:rgba(94, 195, 226, 0.953) ;
+    color: white;
+}
+.mission-cards i{
+
+    color: rgba(94, 195, 226, 0.953) ;
+    font-size: 32px;
+    
+}
+
+.mission-cards h3 {
+    color: grey;
+}
+
+.mission-card:nth-child(3){
+    color: white;
+}
+.card3 i{
+    color:white;
+    
+}
+
+.card1 h3{
+    color: grey;
+}
+
+.card2 h3{
+    color: grey;
+
+}
+
+.card1 p{
+    color: grey;
+
+}
+
+.card2 p{
+    color: grey;
+}
+
+.card3 h3{
+    color: white;
+}
+
+.mission-cards i{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom:5px;
+}
+
+.mission-cards p{
+    margin-left: 20px;
+    margin-top: 2px;
+    text-align:justify;
+    
+}
+
+.mission-cards h3{
+    margin-left: 30px;
+    margin-bottom: 2px;
+    font-size:25px;
+    font-weight: 800;
+}
+ 
+#vision-card{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.peace-card{
+    background-image: url();
+
+}
+
+
+
+
+}
+
+
+
+
+/*sectin1 starts here*/
+
+
+/*styling the big container*/
+/*
+#section1{
+    background-image: linear-gradient(rgba(40, 36, 36, 0.5) ,rgba(0,0,0,0.5)),url(../images/hero-cover.3.png);
+  
+    min-height: 100vh;
+    width: 100%;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: cover;
+    background-position: center;
+    position: relative;
+   
+}
+
+.header-section{
+    height: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    
+    
+}
+
+/*style logo*
+
+.logo{
+    margin-left:200px;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+
+
+/*styling the nav bar
+nav ul{
+    list-style-type: none;
+    left:80px;
+    top: 10px;
+    font-weight: 800;
+    
+    
+    }
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+   
+}
+
+/*psudo class liks
+
+nav ul li a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+.regestration ul{
+    list-style-type: none; 
+    margin-right: 100px;
+    font-weight: 800;
+}
+
+/*loogin button*
+
+.regestration ul li {
+
+    display: inline-block;
+    padding: 5px;
+}
+ /*change the color of login link*
+
+ .regestration ul li a{
+
+    color: white;
+    text-decoration: none;
+ }
+
+/*join in button*
+.regestration ul li:nth-child(2){
+    background-color: rgba(94, 195, 226, 0.953);
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+/*style the center div*
+
+.center-div{
+
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 30px;
+     color: white;
+     width: 90%;
+  
+}
+ .center-div h1{
+     font-size: 60px;
+   font-weight: 900px ;
+   
+
+ }
+/*center div p*
+.center-div p{
+    margin:50px 0px 20px;
+    text-align:center;
+}
+
+/*center div button*
+
+.btn{
+    display: inline-block;
+    margin: 30px 0px 10px;
+   position: relative;
+}
+
+/*quote button*
+
+.btn1{
+    border: 1px solid white;
+    background-color:rgba(94, 195, 226, 0.953) ;
+    border-radius: 25px;
+    padding: 12px 20px;
+
+}
+ 
+/*hoover effect on btn 1
+transition over 1sec*
+
+.btn1:hover{
+    border: 1px solid white;
+    background: transparent;
+    transition: 0.8s;
+}
+
+/*learn more button*
+.btn2{
+    border: 1px solid white;
+    background: transparent;
+    padding: 12px 20px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+/*hoover effect on btn 1
+transition over 1sec*
+.btn2:hover{
+    border: 1px solid white;
+    background-color:rgba(94, 195, 226, 0.953) ;
+    transition: 0.8s;
+}
+
+
+/*change the color of the btns*
+
+.btn a{
+    text-decoration: none;
+    color:white;
+}
+
+/*icons not visible on desktop view*
+div .fa{
+    display: none;
+    
+}
+div li{
+    list-style-type: none;
+}*/
