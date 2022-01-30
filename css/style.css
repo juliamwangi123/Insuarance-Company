@@ -1293,4 +1293,20 @@ border-radius: 9px;
     font-size: 13px;
     margin-left: 100px;
 }
+div{
+    margin-right: 50px;
+}
+.fa-facebook-f{
+    color: blue;
+}
+.fa-instagram{
+    color:palevioletred;
+}
+
+.fa-twitter{
+    color:darkblue;
+}
+.fa-youtube-square{
+    color: red;
+}
 }
