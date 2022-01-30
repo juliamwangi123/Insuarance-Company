@@ -1076,4 +1076,33 @@ border-radius: 9px;
 
 }
 
+/*location*/
+.location{
+    background-color:  #252B42;
+    display: flex;
+    
+
+}
+.location-details{
+    width:50%;
+    color:white;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.location-details h1{
+    font-size: 61px;
+    font-weight: bold;
+}
+.location-details p{
+    text-align: left;
+    padding: 10px;
+}
+.map{
+    width: 50%;
+}
+.map img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
 }
