@@ -1151,5 +1151,14 @@ border-radius: 9px;
     padding: 10px;
 
 }
+.appointment{
+    background-color: #23A6F0;
+    color: white;
+    border: 1px solid white;
+    padding:10px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
 }
