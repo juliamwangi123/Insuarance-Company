@@ -6,7 +6,7 @@
 }
 
 
-/*responosive of section1 */
+/*responosive of section1 mobile view */
 
 @media screen and (max-width:800px) {
     .header-section{
@@ -85,6 +85,8 @@ nav ul li{
     background-position: center;
     padding-top:30px;
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 
 }
@@ -122,7 +124,7 @@ nav ul li{
 
 .btn1{
     border: 1px solid white;
-    background-color:rgba(94, 195, 226, 0.953) ;
+    background-color:#23A6F0 ;
     border-radius: 25px;
     padding: 12px 20px;
 
@@ -175,12 +177,12 @@ nav ul li{
 .card3{
     border: 1px solid white;
     margin: 20px;
-    background-color:rgba(94, 195, 226, 0.953) ;
+    background-color:#23A6F0;
     color: white;
 }
 .mission-cards i{
 
-    color: rgba(94, 195, 226, 0.953) ;
+    color: #23A6F0 ;
     font-size: 32px;
     
 }
@@ -248,198 +250,568 @@ nav ul li{
     align-items: center;
 }
 
-.peace-card{
-    background-image: url();
+#vision-card h3{
+    font-size: 18px;
+    margin: 20px;
+    text-align: center;
 
 }
 
+#vision-card p{
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
 
+.icon-img i{
+    display: flex;
+    color: #23A6F0;
+    justify-content: center;
+    font-size: larger;
+}
 
+/*sectio3*/
+#section3{
+    background-color: lightgray;
+}
+/*hide h1 on mobile view*/
+.industry-header h1{
+    display: none;
+}
+.industry-header {
+    width: 80%;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.industry-header p{
+    font-size:15px;
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.person1, .person2, .person3{
+border: 1px solid white;
+text-align: center;
+height: 70vh;
+margin: 10px;
+background-color: white;
+}
+
+.person1 img, .person2 img, .person3 img{
+    height: 30%;
+    width: 200px;
+    object-fit: contain;
+    margin: 20px;
+    
+}
+.person-message{
+    margin: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+.rating{
+    margin: 20px;
+}
+.rating ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+.rating ul li i{
+    color:yellow;
+    font-size: 20px;
+}
+/*vectors*/
+.vectors{
+    height: 20%;
+    width: 200px;
+    margin-top:250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.vectors ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.vectors li img{
+    height: 5%;
+    width: 200px;
+    object-fit: contain;
+    
+
+}
+.vectors li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+/*subscription*/
+
+.subscribe{
+    background-image:linear-gradient(to right, #252B42,purple);
+    text-align: center;
+    height: 30vh;
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+
+.col-left p{
+   font-size: 18px;
+   font-weight: bolder;
+}
+
+}
+.col-right input:nth-child(1){
+   width: 40%;
+   padding: 50px;
+   padding:10px;
+    border-radius: 10px;
+    color: white;
+ 
+   
 
 }
 
+.col-right input:nth-child(2){
+    width: 40%;
+    background-color: #23A6F0;
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+ 
+ }
+ 
 
 
 
-/*sectin1 starts here*/
+/*sectin1 starts here  responsive desktop view*/
 
 
 /*styling the big container*/
-/*
-#section1{
-    background-image: linear-gradient(rgba(40, 36, 36, 0.5) ,rgba(0,0,0,0.5)),url(../images/hero-cover.3.png);
-  
-    min-height: 100vh;
-    width: 100%;
-    padding: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: cover;
-    background-position: center;
-    position: relative;
-   
-}
+@media screen and (min-width:800px){
 
-.header-section{
-    height: 10%;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
+
+
+    #section1{
+        background-image: linear-gradient(rgba(40, 36, 36, 0.5) ,rgba(0,0,0,0.5)),url(../images/hero-cover.3.png);
+        position: relative;
+        min-height: 100vh;
+        width: 100%;
+        padding: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+        margin: 0 auto;
+       background-color: lightgray;
+    }
+    
+    .header-section{
+        height: 10%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        
+        
+    }
     
     
-}
-
-/*style logo*
-
-.logo{
-    margin-left:200px;
-    font-size: x-large;
-    font-weight: bolder;
+    /*style logo*/
     
-}
-
-
-/*styling the nav bar
-nav ul{
-    list-style-type: none;
-    left:80px;
-    top: 10px;
-    font-weight: 800;
+    .logo{
+        margin-left:200px;
+        font-size: x-large;
+        font-weight: bolder;
+        
+    }
     
+    
+    /*styling the nav bar*/
+    nav ul{
+        list-style-type: none;
+        left:80px;
+        top: 10px;
+        font-weight: 800;
+        
+        
+        }
+    
+    nav ul li{
+        display: inline;
+        margin: 10px;
+       
+    }
+    
+    /*psudo class liks*/
+    
+    nav ul li a{
+    
+        text-decoration: none;
+        color: white;
     
     }
+    
+    
+    
+    
+    .regestration ul{
+        list-style-type: none; 
+        margin-right: 100px;
+        font-weight: 800;
+    }
+    
+    /*loogin button*/
+    
+    .regestration ul li {
+    
+        display: inline-block;
+        padding: 5px;
+    }
+     /*change the color of login link*/
+    
+     .regestration ul li a{
+    
+        color: white;
+        text-decoration: none;
+     }
+    
+    /*join in button*/
+    .regestration ul li:nth-child(2){
+        background-color:#23A6F0;
+        padding: 10px;
+        color: white;
+        border: 1px solid white;
+    }
 
-nav ul li{
-    display: inline;
-    margin: 10px;
-   
-}
+    /*hide icns on the desktop-view*/
+    .icon{
+        display: none;
+    }
+    
+    /*style the center div*/
+    
+    .center-div{
+    
+        position:absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+         color: white;
+         
+      
+    }
+     .center-div h1{
+         font-size: 60px;
+       font-weight: 900px ;
+       
+       
+    
+     }
+    /*center div p*/
+    .center-div p{
+        margin:50px 0px 20px;
+        text-align:center;
+    }
+    
+    /*center div button*/
+    
+    .btn{
+        display: inline-block;
+        margin: 30px 0px 10px;
+       position: relative;
+    }
+    
+    /*quote button*/
+    
+    .btn1{
+        border: 1px solid white;
+        background-color:#23A6F0;
+        border-radius: 25px;
+        padding: 12px 20px;
+    
+    }
+     
+    /*hoover effect on btn 1
+    transition over 1sec*/
+    
+    .btn1:hover{
+        border: 1px solid white;
+        background: transparent;
+        transition: 0.8s;
+    }
+    
+    /*learn more button*/
+    .btn2{
+        border: 1px solid white;
+        background: transparent;
+        padding: 12px 20px;
+        border-radius: 25px;
+        margin-left: 10px;
+    }
+    
+    /*hoover effect on btn 1
+    transition over 1sec*/
+    .btn2:hover{
+        border: 1px solid white;
+        background-color:#23A6F0 ;
+        transition: 0.8s;
+    }
+    
+    
+    /*change the color of the btns*/
+    
+    .btn a{
+        text-decoration: none;
+        color:white;
+    }
+    
+    /*style the mission cards*/
+    .mission-cards{
+        display: flex;
+        text-align: left;
+       width:900px;
+       margin-bottom: -400px;
+       
 
-/*psudo class liks
+     
+        
+       
+    }
+    .card1{
+        margin: 20px;
+        border: 2px solid white;
+        background-color: white;
+        height: 150px;
+        width:350px;
+        padding: 10px;
+        
+       
+    
+    }
+    .card2{
+        border: 1px solid white;
+        border: 1px solid white;
+        background-color: white;
+        width:350px;
+        height: 150px;
+        margin: 20px;
+    
+        
+    }
+    
+    .card3{
+        border: 1px solid white;
+        margin: 20px;
+        background-color:#23A6F0 ;
+        color: white;
+        width:350px;
+        height: 150px;
+    }
+    
+    .mission-card:nth-child(3){
+        color: white;
+    }
+    .card3 i{
+        color:white;
+        
+    }
+    
+    .card1 h3{
+        color: black;}
+    
+    .card2 h3{
+        color:black;
+    
+    }
+    
+    .card1 p{
+        color: grey;
+    
+    }
+    
+    .card2 p{
+        color: grey;
+    }
+    
+    .card3 h3{
+        color: white;
+    }
+    
+    .mission-cards i{
+    
+        color: #23A6F0 ;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 10px;
+        
+        
+    }
+   .card3 i{
+       color: white;
 
-nav ul li a{
+   }
+    
+    .mission-cards p{
+        margin-left: 20px;
+        margin-top: 2px;
+        text-align:justify;
+        
+    }
+    
+    .mission-cards h3{
+        margin-left: 20px;
+        margin-bottom: 2px;
+        font-size:25px;
+        font-weight: 800;
+    }
+    #vision-card{
+        height:70vh;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       justify-content: space-around;
+       padding: 30px;
+       
+    }
+      #section3{
 
-    text-decoration: none;
-    color: white;
-
-}
+        background-color: lightgray;
+      }
 
 
+    .industry-header {
+        width: 80%;
+        margin: auto;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .industry-header p{
+        color: grey;
+    }
+
+    .industry-header h1{
+        margin: 20px;
+
+    }
+       .users{
+           display: flex;
+           margin: 50px;
+           justify-content: center;
+       } 
 
 
-.regestration ul{
-    list-style-type: none; 
-    margin-right: 100px;
-    font-weight: 800;
-}
-
-/*loogin button*
-
-.regestration ul li {
-
-    display: inline-block;
-    padding: 5px;
-}
- /*change the color of login link*
-
- .regestration ul li a{
-
-    color: white;
-    text-decoration: none;
- }
-
-/*join in button*
-.regestration ul li:nth-child(2){
-    background-color: rgba(94, 195, 226, 0.953);
-    padding: 10px;
-    color: white;
+    
+    .person1, .person2, .person3{
     border: 1px solid white;
-}
-
-/*style the center div*
-
-.center-div{
-
-    position:absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     text-align: center;
-    padding: 30px;
-     color: white;
-     width: 90%;
-  
-}
- .center-div h1{
-     font-size: 60px;
-   font-weight: 900px ;
-   
-
- }
-/*center div p*
-.center-div p{
-    margin:50px 0px 20px;
-    text-align:center;
-}
-
-/*center div button*
-
-.btn{
-    display: inline-block;
-    margin: 30px 0px 10px;
-   position: relative;
-}
-
-/*quote button*
-
-.btn1{
-    border: 1px solid white;
-    background-color:rgba(94, 195, 226, 0.953) ;
-    border-radius: 25px;
-    padding: 12px 20px;
-
-}
- 
-/*hoover effect on btn 1
-transition over 1sec*
-
-.btn1:hover{
-    border: 1px solid white;
-    background: transparent;
-    transition: 0.8s;
-}
-
-/*learn more button*
-.btn2{
-    border: 1px solid white;
-    background: transparent;
-    padding: 12px 20px;
-    border-radius: 25px;
-    margin-left: 10px;
-}
-
-/*hoover effect on btn 1
-transition over 1sec*
-.btn2:hover{
-    border: 1px solid white;
-    background-color:rgba(94, 195, 226, 0.953) ;
-    transition: 0.8s;
-}
+    height: 70vh;
+    margin: 10px;
+    background-color: white;
+    width:30%;
+    }
+    
+    .person1 img, .person2 img, .person3 img{
+        height: 30%;
+        width: 200px;
+        object-fit: contain;
+        margin: 20px;
+        
+    }
+    .person-message{
+        margin: 30px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .rating{
+        margin: 20px;
+    }
+    .rating ul li{
+        list-style-type: none;
+        display: inline;
+        padding: 10px;
+    }
+    
+    .rating ul li i{
+        color:yellow;
+        font-size: 20px;
+    }
 
 
-/*change the color of the btns*
+    /*vector section*/
 
-.btn a{
-    text-decoration: none;
-    color:white;
-}
+    .vectors{
+        height: 20%;
+        margin-top:150px;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    .vectors ul{
+        display: flex;
+        justify-content: center;
+      
+    }
+    .vectors li img{
+        height: 30%;
+        width: 150px;
+        object-fit: contain;
 
-/*icons not visible on desktop view*
-div .fa{
-    display: none;
+    }
+    .vectors li{
+        list-style-type: none;
+        margin: 10px;
+    }
+
+/*subscription*/
+.subscribe{
+    position: absolute;
+    height: 10%;
+    width: 80%;
+    left: 100px;
+    right: 30px;
+    background-image:linear-gradient(to right, #252B42,purple);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
     
 }
-div li{
-    list-style-type: none;
-}*/
+.col-left p{
+    color: white;
+    font-size:18px;
+    font-weight: 600;
+
+}
+.col-right input:nth-child(1){
+    padding: 10px;
+    color: white;
+}
+.col-right input:nth-child(2){
+    padding: 10px;
+    margin-right: 50px;
+    width:100px;
+    margin-left: 0;
+    background-color: #23A6F0;
+    color: white;
+    border: 1px solid white;
+}
+.placeholder{
+    color: white;
+}
+
+}
