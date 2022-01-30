@@ -624,12 +624,15 @@ margin-top: 100px;
     padding: 10px;
     border-radius: 5px;
 }
-.more-info{
-    margin-top:30px;
-    text-align: left;
-    margin-left: 50px;
 
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    
 }
+
 
 }
  
@@ -1291,11 +1294,11 @@ border-radius: 9px;
 }
 .footer-extra p{
     font-size: 13px;
-    margin-left: 100px;
+
 }
-div{
-    margin-right: 50px;
-}
+
+
+
 .fa-facebook-f{
     color: blue;
 }
