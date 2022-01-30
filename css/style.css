@@ -371,7 +371,7 @@ background-color: white;
    font-weight: bolder;
 }
 
-col-right input:nth-child(1){
+.col-right input:nth-child(1){
     width: 40%;
     padding: 50px;
     padding:10px;
@@ -390,6 +390,24 @@ col-right input:nth-child(1){
      color: white;
   
   }
+  .pricing-header {
+    width: 80%;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+   
+  }
+
+  .pricing-header h1{
+    font-weight:bolder;
+    padding: 20px;
+
+  }
+.pricing-header p{
+    font-size:15px;
+    color: grey;
+    
+}
 
 }
 
@@ -781,9 +799,9 @@ col-right input:nth-child(1){
 /*subscription*/
 .subscribe{
     position: absolute;
-    height: 10%;
+    height: 15%;
     width: 80%;
-    left: 100px;
+    left: 120px;
     right: 30px;
     background-image:linear-gradient(to right, #252B42,purple);
     display: flex;
@@ -797,11 +815,13 @@ col-right input:nth-child(1){
     color: white;
     font-size:18px;
     font-weight: 600;
+    margin-left: 10px;
 
 }
 .col-right input:nth-child(1){
     padding: 10px;
     color: white;
+    border-radius: 5px;
 }
 .col-right input:nth-child(2){
     padding: 10px;
@@ -811,9 +831,8 @@ col-right input:nth-child(1){
     background-color: #23A6F0;
     color: white;
     border: 1px solid white;
+    border-radius: 5px;
 }
-.placeholder{
-    color: white;
-}
+
 
 }
