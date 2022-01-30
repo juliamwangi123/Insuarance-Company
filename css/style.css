@@ -409,6 +409,105 @@ background-color: white;
     
 }
 
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    margin-top: 57px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    
+    
+}
+.col1-left, .col1-right{
+    border: 2px solid #23A6F0;
+    height: 80vh;
+    text-align: center;
+    padding: 23px;
+    background-color: white;
+    border-radius: 9px;
+    margin: 10px;
+    
+    }
+    
+    .col1-center{
+    
+        background-color:  #252B42;
+        height: 80vh;
+        text-align: center;
+        padding: 20px;
+        border: 2px solid #23A6F0;
+        border-radius: 9px;
+    
+    
+    }
+    .col1-left h2{
+        color:  #252B42;
+    }
+    .col1-right h2{
+        color:  #252B42;
+    }
+    .col1-center h2{
+        color: white;
+    }
+    .top3  p{
+        color: gray;
+        font-weight: bold;
+        margin: 20px;
+    }
+    .top1 p{
+        color: gray;
+        font-weight: bold;
+        margin: 20px;
+    }
+    
+    .top p{
+        color: white;
+        font-weight: bold;
+        margin: 30px;
+    
+    }
+    .speed h3{
+        color:#23A6F0;
+        font-size:27px;
+        padding: 17px;
+    }
+    .sup{
+        vertical-align: super;
+        font-size: 16px;
+    }
+    
+    .sub{
+       vertical-align: sub;
+       font-size: 12px;
+       margin:0
+    }
+    .products p{
+        color:  #252B42;
+        padding: 7px;
+        text-align: left;
+    }
+    .offer{
+        border: 1px solid  #23A6F0;
+        margin-top: 10px;
+        padding: 7px;
+        background-color: #23A6F0;
+    }
+    
+    .products-center p{
+        color: white;
+        padding: 7px;
+        text-align: left;
+    
+    
+    }
+    
+
+
+
+
 }
 
  
@@ -944,4 +1043,5 @@ border-radius: 9px;
 
 
 }
+
 }
