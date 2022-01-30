@@ -1286,8 +1286,11 @@ border-radius: 9px;
 
 
 }
-.info p{
-    margin: auto;
+.footer p{
     font-size: 13px;
+}
+.footer-extra p{
+    font-size: 13px;
+    margin-left: 100px;
 }
 }
