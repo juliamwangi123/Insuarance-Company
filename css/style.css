@@ -371,26 +371,28 @@ background-color: white;
    font-weight: bolder;
 }
 
-}
-.col-right input:nth-child(1){
-   width: 40%;
-   padding: 50px;
-   padding:10px;
-    border-radius: 10px;
-    color: white;
- 
-   
-
-}
-
-.col-right input:nth-child(2){
+col-right input:nth-child(1){
     width: 40%;
-    background-color: #23A6F0;
+    padding: 50px;
     padding:10px;
-    border-radius: 10px;
-    color: white;
+     border-radius: 10px;
+     color: white;
+  
+    
  
  }
+ 
+ .col-right input:nth-child(2){
+     width: 40%;
+     background-color: #23A6F0;
+     padding:10px;
+     border-radius: 10px;
+     color: white;
+  
+  }
+
+}
+
  
 
 
