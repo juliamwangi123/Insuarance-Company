@@ -503,10 +503,42 @@ background-color: white;
     
     
     }
-    
 
+    /*location*/
+    .location{
+        display: flex;
+        background-color:  #252B42;
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+.location-details{
+    height: 50%;
+    text-align:left;
 
+}
+    .location-details h1{
+        color: white;
+        font-size: 40px;
+        margin-top: 100px;
+        padding: 20px;
+    }
+    .location-details p{
+        color: white;
+        padding: 20px;
+    }
+.map{
+    height: 30%;
 
+}
+.map img{
+height: 200px;
+width: 200px;
+object-fit: contain;
+color: white;
+margin-top: 100px;
+}
 
 }
 
