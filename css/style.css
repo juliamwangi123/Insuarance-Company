@@ -1080,7 +1080,7 @@ border-radius: 9px;
 .location{
     background-color:  #252B42;
     display: flex;
-    
+    margin-top: 100px;
 
 }
 .location-details{
