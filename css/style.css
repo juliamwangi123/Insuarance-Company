@@ -1247,6 +1247,25 @@ border-radius: 9px;
     margin-top: 20px;
 }
 
-
+.consulting{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    margin-top: 400px;
+    justify-content: space-between;
+    margin-left:150px;
+    align-items: center;
+}
+.agency h3{
+    font-size:18px;
+}
+.contact-btn{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    background-color: #23A6F0;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 }
