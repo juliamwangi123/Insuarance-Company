@@ -17,6 +17,7 @@
 <p>This is  a simple insuarance website that i created practicing responsivenes of a website.</p>
 
 ## Installation
+<p>Click on the Live Link on about section.</p>
 
 ### Requirements
 
