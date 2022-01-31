@@ -248,6 +248,7 @@ nav ul li{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 #vision-card h3{
@@ -264,11 +265,19 @@ nav ul li{
     font-size: 14px;
 }
 
-.icon-img i{
+
+
+
+
+.icon-img img{
     display: flex;
     color: #23A6F0;
     justify-content: center;
-    font-size: larger;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin-left: 40px;
 }
 
 /*sectio3*/
