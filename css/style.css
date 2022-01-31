@@ -595,9 +595,10 @@ margin-top: 100px;
     text-align: center;
     margin-left: 20px;
     margin-top: 20px;
+    margin-right: 20px;
 }
 .consulting{
-    height: 100%;
+    height: 40vh;
     width:100%;
     margin-top:5px;
     display: flex;
@@ -614,16 +615,18 @@ margin-top: 100px;
 }
 
 .agency h3{
-    font-size: 23px;
-    margin: auto;
-    text-align: justify;
-    padding: 20px;
-}
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+
+    }
 
 .agency p{
     text-align: justify;
-    padding:5px;
+    padding:15px;
     color: gray;
+    margin-left: 50px;
 }
 .contact-btn{
     background-color: #23A6F0;
@@ -646,12 +649,24 @@ margin-top: 100px;
 .footer p{
     padding: 5px;
     color:gray;
+    
+}
+.footer h4{
+    margin: 5px;
+}
+.features-info{
+    margin-left: 50px;
+}
+
+.contacts{
+    margin-left: 65px;
 }
 .footer-extra p{
 
     padding: 5px;
     color:gray;
     margin-top: 5px;
+    font-size: 13px;
 }
 .company-info{
     margin-top: 30px;
@@ -1321,6 +1336,7 @@ border-radius: 9px;
     justify-content: space-evenly;
     margin-top:50px;
     height: 20vh;
+    margin-left: 100px;
 }
 .footer-extra{
     display: flex;
@@ -1336,9 +1352,12 @@ border-radius: 9px;
 }
 .footer-extra p{
     font-size: 13px;
+    margin-left: 50px;
 
 }
-
+.fab{
+    margin-right: 20px;
+}
 
 
 .fa-facebook-f{
